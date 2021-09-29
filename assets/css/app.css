@@ -1,6 +1,20 @@
 /* This file is for your main application CSS */
 @import "./phoenix.css";
 
+
+/* Custom CSS */
+.help-block {
+  color: red;
+  text-transform: capitalize;
+  position: absolute;
+  top: 37px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
 /* Alerts and form errors used by phx.new */
 .alert {
   padding: 15px;
